@@ -1,0 +1,17 @@
+<?php
+$servername = "localhost";
+$username = "root"; // or your MySQL username for port 33083 server
+$password = "NEW_PASSWORD"; // MySQL password for that user
+$dbname = "gymnsb";
+$port = 33083; // specify the port explicitly
+
+$con = mysqli_connect($servername, $username, $password, $dbname, $port);
+if(!$con){
+    die("Connection Failed");
+}
+
+$sql = "SELECT * FROM members";
+                $query = $con->query($sql);
+
+                echo "$query->num_rows";
+?>

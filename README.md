@@ -105,11 +105,10 @@ Open your browser:
 http://localhost/Gym-System/
 ```
 
----
+
 
 ## 📸 Screenshots
 
-You can add screenshots here later.
 
 Example:
 
